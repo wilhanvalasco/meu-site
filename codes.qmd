@@ -1,0 +1,28 @@
+---
+title: " "
+format: html
+---
+
+## function_fatgraf.DBC.R
+
+Função desenvolvida para realizar **análises de experimentos fatoriais duplos (DBC)**,  
+gerando **tabelas de ANOVA** e **gráficos automatizados** para facilitar a interpretação dos resultados.
+
+<p>
+  <a href="functions/function_fatgraf.DBC.R" download class="btn btn-primary">
+    ⬇️ Baixar função
+  </a>
+</p>
+
+---
+
+## discount.R
+
+Função criada para **calcular perdas de grãos** em função da **umidade** e da **impureza**,  
+facilitando a padronização e o controle de qualidade na pós-colheita.
+
+<p>
+  <a href="functions/discount.R" download class="btn btn-primary">
+    ⬇️ Baixar função
+  </a>
+</p>

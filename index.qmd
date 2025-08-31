@@ -1,0 +1,35 @@
+---
+title: ""
+format: html
+---
+
+<div style="position: relative; text-align: center;">
+
+<!-- Foto -->
+<img src="wilhan.jpg" alt="Wilhan Valasco" 
+     style="width:100%; max-height:90vh; object-fit:cover; object-position: center 35%; opacity:0.95; border-radius:8px;">
+
+<!-- Faixa translúcida com nome centralizado -->
+<div style="position: absolute; top: 50%; left: 0; width: 100%; 
+            background: rgba(0,0,0,0.35); padding: 25px 0;">
+  <h1 style="margin:0; color: white; font-size:3rem; font-weight:700;">
+    Wilhan Valasco
+  </h1>
+</div>
+
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const cards = document.querySelectorAll('.card');
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+      }
+    });
+  }, { threshold: 0.2 });
+
+  cards.forEach(card => observer.observe(card));
+});
+</script>

@@ -1,0 +1,140 @@
+/* Animação fade-in para os cards */
+.card {
+  background: #f9fafb;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  opacity: 0; /* invisível no início */
+  transform: translateY(20px); /* deslocado levemente */
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+/* Estado visível */
+.card.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Layout do About: duas colunas */
+.about {
+  display: flex;
+  gap: 30px;
+  align-items: stretch;
+}
+
+/* Coluna da foto */
+.about-photo {
+  flex: 1.2; /* ocupa mais espaço que antes */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none; /* remove qualquer fundo branco atrás da foto */
+}
+
+/* Foto grande do About */
+.foto-sobre {
+  width: 250%;
+  max-width: 550px;     /* aumenta o limite horizontal */
+  max-height: 150vh;     /* ocupa quase toda a altura da tela */
+  object-fit: cover;
+  object-position: top; /* mantém o rosto, corta embaixo se precisar */
+  border-radius: 8px;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+.foto-sobre:hover {
+  transform: scale(1.05); /* zoom suave */
+  box-shadow: 0 8px 24px rgba(0,0,0,0);
+}
+
+/* Painel cinza translúcido à direita */
+.about-panel {
+  flex: none;                /* não cresce automaticamente */
+  width: 60%;                /* largura fixa relativa ao container */
+  background: rgba(128,128,128,0.55);
+  color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  overflow: auto;
+}
+
+/* Responsivo: empilha no mobile */
+@media (max-width: 900px) {
+  .about {
+    flex-direction: column;
+  }
+  .about-panel {
+    order: 2;
+  }
+  .about-photo {
+    order: 1;
+  }
+}
+/* Parte do contato*/
+/* Container do contato */
+.contact {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 25px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 2px 4px 12px rgba(0,0,0,0);
+}
+
+/* Foto (reduzida em 20%) */
+.contact-photo {
+  flex: 0 0 200px; /* antes 220px */
+}
+
+.contact-photo img.foto-contato {
+  width: 10px; /* antes 220px */
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 2px 6px rgba(0,0,0,0);
+}
+
+/* Painel de contatos */
+.contact-panel {
+  flex: 1;
+  color: #000;
+}
+
+.contact-panel h3 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 1.4rem;
+  color: #000;
+}
+
+.contact-panel ul {
+  list-style: disc;
+  padding-left: 20px;
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .contact {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contact-photo {
+    margin-bottom: 20px;
+    flex: unset;
+  }
+
+  .contact-photo img.foto-contato {
+    width: 60%; /* ocupa menos em telas pequenas */
+  }
+
+  .contact-panel ul {
+    list-style: none;
+    padding-left: 0;
+  }
+}

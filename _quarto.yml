@@ -1,0 +1,22 @@
+project:
+  type: website
+
+website:
+  title: "Wilhan Valasco"
+  navbar:
+    left:
+      - href: index.qmd
+        text: "Início"
+      - href: about.qmd
+        text: "Sobre"
+      - href: projects.qmd
+        text: "Projetos"
+      - href: codes.qmd
+        text: "Códigos em R"
+      - href: contact.qmd
+        text: "Contato"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css

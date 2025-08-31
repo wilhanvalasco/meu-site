@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Wilhan Valasco",
+    "section": "",
+    "text": "Perfil profissional\n\n\n\nEng. Agrônomo · Me. Proteção de Plantas · MBA Gestão Estratégica\n\n\nEsp. Data Science & Big Data Analytics\n\n\nDoutorando Biotecnologia & Biodiversidade (IF Goiano)\n\n\nFertilidade do solo e nutrição de plantas\n\n\nManejo fitossanitário químico e biológico\n\n\nPlanejamento de experimentos e análise de dados agronômicos\n\n\nProcessamento de imagens RGB e multiespectrais\n\n\nModelagem de dados agronômicos e geoestatística\n\n\nProgramação em R, SQL, Power BI e QGIS\n\n\nModelagem preditiva e otimização de processos\n\n\nBanco de dados relacionais e análise de grandes volumes de informações\n\n\nGestão de pessoas e equipes\n\n\nPlanejamento estratégico e identificação de oportunidades de negócio\n\n\nDesenvolvimento de estratégias para otimizar eficiência e rentabilidade\n\n\nMissão: Contribuir para soluções sustentáveis no agronegócio, liderando projetos e equipes que impulsionam a transformação do setor\n\n\n\nPerfil pessoal\n\n\n\nHobbies: leitura, academia e esportes, viagens\n\n\nTimes do coração: Santos FC, Real Madrid C.F.\n\n\nInspiração: Cristiano Ronaldo (CR7) – profissionalismo, dedicação e disciplina. Inspira milhões com humanidade, superação e entrega total. Mostra que sucesso é a soma de esforço, resiliência e paixão."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Wilhan Valasco",
+    "section": "",
+    "text": "CampoPixel\n\n\nSolução inovadora em R para processamento de imagens agrícolas, permitindo análise de solo exposto, NDGR e segmentação de culturas, aplicável a drones e câmeras multiespectrais.\n\n\n\nHydropaper\n\n\nFerramenta científica para ajuste de curvas de hidratação de sementes, utilizando modelos matemáticos avançados (Logístico, Peleg, entre outros).\n\n\n\nDoutorado\n\n\nArroz e Feijão – Estratégia para Alimentação Planetária\n\n\nProjeto acadêmico de revisão sistemática que avalia a contribuição dos bioinsumos para o cultivo sustentável de arroz e feijão, como modelo para segurança alimentar global."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Wilhan Valasco",
+    "section": "",
+    "text": "Email: wilhanvalasco@hotmail.com\n\n\nCelular: (64) 99286-2039\n\n\nLinkedIn: linkedin.com/in/wilhanvalasco\n\n\nGitHub: github.com/wilhanvalasco"
+  },
+  {
+    "objectID": "codes.html",
+    "href": "codes.html",
+    "title": "Wilhan Valasco",
+    "section": "",
+    "text": "Função desenvolvida para realizar análises de experimentos fatoriais duplos (DBC),\ngerando tabelas de ANOVA e gráficos automatizados para facilitar a interpretação dos resultados.\n\n ⬇️ Baixar função"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "\nWilhan Valasco\n",
+    "section": "",
+    "text": "Wilhan Valasco"
+  },
+  {
+    "objectID": "codes.html#function_fatgraf.dbc.r",
+    "href": "codes.html#function_fatgraf.dbc.r",
+    "title": "Wilhan Valasco",
+    "section": "",
+    "text": "Função desenvolvida para realizar análises de experimentos fatoriais duplos (DBC),\ngerando tabelas de ANOVA e gráficos automatizados para facilitar a interpretação dos resultados.\n\n ⬇️ Baixar função"
+  },
+  {
+    "objectID": "codes.html#discount.r",
+    "href": "codes.html#discount.r",
+    "title": "Wilhan Valasco",
+    "section": "discount.R",
+    "text": "discount.R\nFunção criada para calcular perdas de grãos em função da umidade e da impureza,\nfacilitando a padronização e o controle de qualidade na pós-colheita.\n\n ⬇️ Baixar função"
+  }
+]

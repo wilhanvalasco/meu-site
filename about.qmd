@@ -1,0 +1,43 @@
+---
+title: ""
+format: html
+---
+
+
+<div class="about">
+
+<div class="about-photo">
+  <img src="wilhan2.png" alt="Wilhan Valasco" class="foto-sobre">
+</div>
+
+<div class="about-panel">
+
+  <h3>Perfil profissional</h3>
+  <ul>
+    <li>Eng. Agrônomo · Me. Proteção de Plantas · MBA Gestão Estratégica</li>
+    <li>Esp. Data Science & Big Data Analytics</li>
+    <li>Doutorando Biotecnologia & Biodiversidade (IF Goiano)</li>
+    <li>Fertilidade do solo e nutrição de plantas</li>
+    <li>Manejo fitossanitário químico e biológico</li>
+    <li>Planejamento de experimentos e análise de dados agronômicos</li>
+    <li>Processamento de imagens RGB e multiespectrais</li>
+    <li>Modelagem de dados agronômicos e geoestatística</li>
+    <li>Programação em R, SQL, Power BI e QGIS</li>
+    <li>Modelagem preditiva e otimização de processos</li>
+    <li>Banco de dados relacionais e análise de grandes volumes de informações</li>
+    <li>Gestão de pessoas e equipes</li>
+    <li>Planejamento estratégico e identificação de oportunidades de negócio</li>
+    <li>Desenvolvimento de estratégias para otimizar eficiência e rentabilidade</li>
+    <li><b>Missão:</b> Contribuir para soluções sustentáveis no agronegócio, liderando projetos e equipes que impulsionam a transformação do setor</li>
+  </ul>
+
+  <h3>Perfil pessoal</h3>
+  <ul>
+    <li>Hobbies: leitura, academia e esportes, viagens</li>
+    <li>Times do coração: Santos FC, Real Madrid C.F.</li>
+    <li><b>Inspiração:</b> Cristiano Ronaldo (CR7) – profissionalismo, dedicação e disciplina. Inspira milhões com humanidade, superação e entrega total. Mostra que sucesso é a soma de esforço, resiliência e paixão.</li>
+  </ul>
+
+</div>
+
+</div>

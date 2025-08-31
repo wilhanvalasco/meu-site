@@ -1,0 +1,22 @@
+---
+title: ""
+format: html
+---
+
+<div class="about-photo" style="position:relative; display:inline-block;">
+  <img src="wilhan3.png" alt="Wilhan Valasco" class="foto-sobre">
+
+  <!-- Caixa de contatos sobreposta -->
+  <div style="position:absolute; top:50px; right:-350px; background:rgba(128,128,128,10); padding:15px; border-radius:8px; color:#fff; max-width:800%;">
+ 
+
+<hr style="border:0; height:1px; background:#fff; margin:10px 0;">
+
+<ul style="color:#fff; font-family:'Courier New', monospace; font-size:80%; line-height:1.6; list-style:none; padding:0; margin:0;">
+  <li>Email: <a href="mailto:wilhanvalasco@hotmail.com" style="color:#fff; text-decoration:none;">wilhanvalasco@hotmail.com</a></li>
+  <li>Celular: (64) 99286-2039</li>
+  <li>LinkedIn: <a href="https://www.linkedin.com/in/wilhan-valasco/" target="_blank" style="color:#fff; text-decoration:none;">linkedin.com/in/wilhanvalasco</a></li>
+  <li>GitHub: <a href="https://github.com/wilhanvalasco" target="_blank" style="color:#fff; text-decoration:none;">github.com/wilhanvalasco</a></li>
+</ul>
+
+<hr style="border:0; height:1px; background:#fff; margin:10px 0;">

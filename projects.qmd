@@ -1,0 +1,27 @@
+---
+title: " "
+format: html
+---
+
+<hr style="border:0; height:1px; background:#ddd; margin:10px 0;">
+
+<h3>CampoPixel</h3>
+<p>
+  Solução inovadora em R para processamento de imagens agrícolas, permitindo análise de solo exposto, NDGR e segmentação de culturas, aplicável a drones e câmeras multiespectrais.
+</p>
+
+<hr style="border:0; height:1px; background:#ddd; margin:10px 0;">
+
+<h3>Hydropaper</h3>
+<p>
+  Ferramenta científica para ajuste de curvas de hidratação de sementes, utilizando modelos matemáticos avançados (Logístico, Peleg, entre outros).
+</p>
+
+<hr style="border:0; height:1px; background:#ddd; margin:10px 0;">
+<h3>Doutorado</h3>
+<p>
+  Arroz e Feijão – Estratégia para Alimentação Planetária</h3>
+<p>Projeto acadêmico de revisão sistemática que avalia a contribuição dos bioinsumos para o cultivo sustentável de arroz e feijão, como modelo para segurança alimentar global.
+</p>
+
+<hr style="border:0; height:1px; background:#ddd; margin:10px 0;">
