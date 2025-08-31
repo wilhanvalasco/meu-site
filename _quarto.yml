@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs   # 👈 aqui que faz o site ir para /docs
 
 website:
   title: "Wilhan Valasco"
