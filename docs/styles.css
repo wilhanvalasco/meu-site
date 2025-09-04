@@ -1,74 +1,103 @@
-/* Animação fade-in para os cards */
-.card {
-  background: #f9fafb;
-  border-radius: 8px;
-  padding: 20px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-  opacity: 0; /* invisível no início */
-  transform: translateY(20px); /* deslocado levemente */
-  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
-}
+/* Codigo about */
 
-/* Estado visível */
-.card.visible {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-/* Layout do About: duas colunas */
+/* Layout do About: duas colunas lado a lado */
 .about {
-  display: flex;
-  gap: 30px;
-  align-items: stretch;
+  position: relative;
+  overflow: hidden;
+  min-height: 100vh;
 }
+
 
 /* Coluna da foto */
 .about-photo {
-  flex: 1.2; /* ocupa mais espaço que antes */
+  flex: 1.2;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: none; /* remove qualquer fundo branco atrás da foto */
+  max-width: 500px;   /* ou ajuste conforme preferir */
 }
 
-/* Foto grande do About */
+/* Foto do perfil */
 .foto-sobre {
-  width: 250%;
-  max-width: 550px;     /* aumenta o limite horizontal */
-  max-height: 150vh;     /* ocupa quase toda a altura da tela */
+  width: 100%;
+  max-width: 100%;      /* permite ocupar toda a largura da coluna */
+  height: auto;
   object-fit: cover;
-  object-position: top; /* mantém o rosto, corta embaixo se precisar */
-  border-radius: 8px;
+  object-position: top;
+  border-radius: 12px;
   transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
+
 .foto-sobre:hover {
-  transform: scale(1.05); /* zoom suave */
-  box-shadow: 0 8px 24px rgba(0,0,0,0);
+  transform: scale(1.05);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
 }
 
-/* Painel cinza translúcido à direita */
+/* Painel de texto translúcido */
 .about-panel {
-  flex: none;                /* não cresce automaticamente */
-  width: 60%;                /* largura fixa relativa ao container */
-  background: rgba(128,128,128,0.55);
+  flex: 2;
+  max-width: 700px;
+  background: rgba(50, 50, 50, 0.5); /* tom cinza escuro translúcido */
   color: #fff;
   padding: 30px;
-  border-radius: 8px;
+  border-radius: 12px;
   overflow: auto;
+  backdrop-filter: blur(4px); /* efeito vidro fosco opcional */
 }
 
-/* Responsivo: empilha no mobile */
+/* Responsivo: empilha verticalmente no mobile */
 @media (max-width: 900px) {
   .about {
     flex-direction: column;
+    align-items: center;
   }
+
+  .about-panel, .about-photo {
+    max-width: 90%;
+    width: 100%;
+  }
+
   .about-panel {
     order: 2;
   }
+
   .about-photo {
     order: 1;
+    margin-bottom: 20px;
   }
 }
+
+.about-content {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 30px;
+  padding: 40px;
+  justify-content: center;
+  align-items: stretch; /* Força mesma altura */
+}
+
+.about-box {
+  flex: 1;
+  background: rgba(255, 255, 255, 0.8); /* fundo claro translúcido */
+  color: #000; /* texto preto */
+  padding: 30px;
+  border-radius: 12px;
+  backdrop-filter: blur(3px);
+  min-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
 /* Parte do contato*/
 /* Container do contato */
 .contact {
